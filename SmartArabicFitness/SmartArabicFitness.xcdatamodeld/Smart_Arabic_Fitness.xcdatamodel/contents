@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="18G87" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Exercices" representedClassName="Exercices" syncable="YES" codeGenerationType="class">
+        <attribute name="arDifficulty" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arEquipment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arHowTo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arMainGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arOtherGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enDifficulty" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enEquipment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enHowTo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enMainGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enOtherGroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isPremium" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="muscleId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Logs" representedClassName="Logs" syncable="YES" codeGenerationType="class">
+        <attribute name="issuedAt" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="planId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Muscles" representedClassName="Muscles" syncable="YES" codeGenerationType="class">
+        <attribute name="arName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="PlanExercices" representedClassName="PlanExercices" syncable="YES" codeGenerationType="class">
+        <attribute name="exerciseId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="planId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="reps" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="rest" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sets" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Plans" representedClassName="Plans" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isDefault" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WorkoutExercises" representedClassName="WorkoutExercises" syncable="YES" codeGenerationType="class">
+        <attribute name="exerciseId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="workoutId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Workouts" representedClassName="Workouts" syncable="YES" codeGenerationType="class">
+        <attribute name="arDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arEquipment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arGoal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arInstruction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enEquipment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enGoal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enInstruction" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enLevel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isPurchased" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="level1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="level2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelCount" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Exercices" positionX="-37.0234375" positionY="35.01171875" width="128" height="315"/>
+        <element name="Logs" positionX="108" positionY="81" width="128" height="75"/>
+        <element name="Muscles" positionX="261.14453125" positionY="-18.87109375" width="128" height="90"/>
+        <element name="PlanExercices" positionX="108" positionY="72" width="128" height="150"/>
+        <element name="Plans" positionX="108" positionY="72" width="128" height="105"/>
+        <element name="WorkoutExercises" positionX="117" positionY="90" width="128" height="105"/>
+        <element name="Workouts" positionX="108" positionY="81" width="128" height="330"/>
+    </elements>
+</model>

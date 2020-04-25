@@ -1,0 +1,114 @@
+PODS:
+  - BEMCheckBox (1.4.1)
+  - Cartography (4.0.0)
+  - CoreStore (6.3.2)
+  - DropDown (2.3.13)
+  - DZNEmptyDataSet (1.8.1)
+  - Google-Mobile-Ads-SDK (7.49.0):
+    - GoogleAppMeasurement (~> 6.0)
+  - GoogleAppMeasurement (6.1.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3)
+  - GoogleUtilities/AppDelegateSwizzler (6.2.5):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.2.5)
+  - GoogleUtilities/Logger (6.2.5):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.2.5):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.2.5):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.2.5)"
+  - GoogleUtilities/Reachability (6.2.5):
+    - GoogleUtilities/Logger
+  - IQKeyboardManagerSwift (6.4.1)
+  - JTAppleCalendar (7.1.8)
+  - Localize (2.3.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - SideMenuSwift (2.0.2)
+  - SimpleAnimation (0.4.2)
+  - SwiftDate (6.0.3)
+  - SwiftGifOrigin (1.7.0)
+  - SwiftyAttributes (5.1.1)
+  - SwiftyJSON (5.0.0)
+  - Toast-Swift (5.0.0)
+  - UICircularProgressRing (6.2.1)
+
+DEPENDENCIES:
+  - BEMCheckBox
+  - Cartography
+  - CoreStore
+  - DropDown
+  - DZNEmptyDataSet
+  - Google-Mobile-Ads-SDK
+  - IQKeyboardManagerSwift
+  - JTAppleCalendar (~> 7.1.8)
+  - Localize
+  - SideMenuSwift
+  - SimpleAnimation
+  - SwiftDate
+  - SwiftGifOrigin
+  - SwiftyAttributes
+  - SwiftyJSON
+  - Toast-Swift
+  - UICircularProgressRing
+
+SPEC REPOS:
+  trunk:
+    - BEMCheckBox
+    - Cartography
+    - CoreStore
+    - DropDown
+    - DZNEmptyDataSet
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleUtilities
+    - IQKeyboardManagerSwift
+    - JTAppleCalendar
+    - Localize
+    - nanopb
+    - SideMenuSwift
+    - SimpleAnimation
+    - SwiftDate
+    - SwiftGifOrigin
+    - SwiftyAttributes
+    - SwiftyJSON
+    - Toast-Swift
+    - UICircularProgressRing
+
+SPEC CHECKSUMS:
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+  Cartography: c5626d29056b20f1e95c017326ee4df57cc39ad8
+  CoreStore: 690a587902a81c412cf353466d2d2a029934267e
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Google-Mobile-Ads-SDK: df315e371b29cf935f7ea872e7bdec39462a100e
+  GoogleAppMeasurement: 86a82f0e1f20b8eedf8e20326530138fd71409de
+  GoogleUtilities: e7dc37039b19df7fe543479d3e4a02ac8d11bb69
+  IQKeyboardManagerSwift: d2df660d0b8d64a15cb2537c9ff303213fa515b2
+  JTAppleCalendar: b7fb40852f5f319fe55c8ec3861f1de0edc99cc8
+  Localize: cb1ae53ed73decaad0dce217806ed983091913f5
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  SideMenuSwift: ba10587929b9090c89105ec52739e6c60b9e50de
+  SimpleAnimation: 5430010b9548f392e7459290acce01c9ceba7171
+  SwiftDate: 8d4f14bf1ef68e95094511504856547bf9e3e1a6
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+  SwiftyAttributes: e3e13891ddac3c62b3d7798d5c3969cea88e62bb
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
+  UICircularProgressRing: b52543c79dbd89844e13f0053e3f565b7d7efc5c
+
+PODFILE CHECKSUM: d24cb34087a23aedca20fb2ecfafa443994a3470
+
+COCOAPODS: 1.8.0.beta.2
